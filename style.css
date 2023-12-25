@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+header {
+    
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+  }
+  .logo{
+    text-decoration: none;
+    color: rgb(87, 85, 33);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+  }
+  .navigation a{
+    text-decoration: none;
+    color: rgb(87, 85, 33);
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+  }
+  .navigation a:hover{
+    color: rgb(153, 150, 64);
+  }
+  section{
+    border-radius: 15px;
+  }
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(lll.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+
+}
+.main h2{
+     color: rgb(97, 95, 36);
+     font-size: 1.4em;
+     font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+     color: rgb(74, 73, 28);
+     font-size: 3em;
+     font-weight: 600;
+}
+.main h3{
+    color: rgb(97, 95, 36);
+     font-size: 2em;
+     font-weight: 700;
+     letter-spacing: 1px;
+     margin-top: 10px;
+     margin-bottom: 30px;
+}
+.main-btn{
+    color: rgb(242, 241, 215);
+    background-color:rgb(74, 73, 28) ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: rgb(109, 108, 45);
+    transform: scale(1.1);
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(242, 241, 215);
+    background-color:rgb(74, 73, 28) ;
+    border-radius: 15px;
+}
+.products img{
+    text-align: center;
+    background-color: rgb(87, 85, 33);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 20px;
+    
+    
+}
+.granola h3{
+    color: rgb(87, 85, 33);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 1px;
+}
+.granola h4{
+    color: rgb(87, 85, 33);
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 30px;
+}
+ td p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(87, 85, 33);
+}
+small{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(87, 85, 33);
+}
+td a{
+    
+    color: rgb(87, 85, 33);
+    background-color:rgb(209, 208, 152) ;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+td a:hover{
+    background-color: rgb(145, 143, 62);
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    color: rgb(242, 241, 215);
+    background-color:rgb(74, 73, 28) ;
+    border-radius: 20px;
+    
+}
+.info p{
+    color: rgb(87, 85, 33);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 60px;
+    
+}
+.form{
+    border-radius: 30px;
+}
+form{
+    color:rgb(242, 241, 215);
+    background-color: rgb(87, 85, 33);
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 30px 40px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-right: 900px;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+#s-btn{
+    color: rgb(255, 255, 255);
+    background-color:rgb(209, 208, 152) ;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left:400px;
+    border-radius: 5px;
+    transition: 0.7s ease;
+}
+#s-btn:hover{
+    background-color: rgb(145, 143, 62);
+}
+
+
+footer{
+     color: rgb(242, 241, 215);
+    background-color:rgb(87, 85, 33) ;
+    display: flex;
+    padding: 15px;
+}
+
